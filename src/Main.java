@@ -23,7 +23,7 @@ public class Main {
 //        List<String> urls = new ArrayList<>();
 
 
-        for (page = 1; page <= 10; page++) {
+        for (page = 1; page <= 3; page++) {
             String urlType = UrlType.BEST.toString().replace("{page}", String.valueOf(page));
             System.out.println("--------------------\nSTART CRAWL PAGE " + page);
             Document doc1;
@@ -34,13 +34,25 @@ public class Main {
                 doc1 = Jsoup.connect(fullPath).get();
                 Elements elements = doc1.select("#page-images-gallery > div.image-gallery__items.image-gallery-items-container > div > ul > li");
                 for (Element element : elements) {
-                    Element aTag = element.selectFirst("div > a");
-                    String href;
+                    Element imgTag = element.selectFirst("div > a > img");
+                    Elements hiddenTags = element.select("div > ul > li");
 
-                    if (aTag != null) {
-                        href = aTag.attr("href");
-                        urls.add(href);
-                        System.out.println("href=" + href);
+                    if (imgTag != null) {
+                        String imgSrc = imgTag.attr("src");
+                        if (imgSrc.isEmpty()) {
+                            imgSrc = imgTag.attr("data-src");
+                        }
+
+                        System.out.println("Link = " + imgSrc);
+
+                        System.out.print("TAG: ");
+                        for (Element hiddenTag: hiddenTags) {
+                            Element aTag = hiddenTag.selectFirst("a");
+                            if (aTag != null) {
+                                System.out.println(aTag.text());
+                            }
+                        }
+                        System.out.println("------------------------------------------------------------");
                     }
                 }
 
@@ -49,32 +61,6 @@ public class Main {
             }
             System.out.println("END CRAWL PAGE " + page);
         }
-//*****************************************************************************
-//        for (String url: urls) {
-//            String fullPath = BASE_URL + url;
-//            System.out.println("fullPath = " + fullPath);
-//            try {
-//                Document doc = Jsoup.connect(fullPath).get();
-//
-//                Element containerElement = doc.selectFirst("");
-////            System.out.println(element.html());
-//                if (containerElement != null) {
-//                    Elements elements = containerElement.select("a");
-//                    for (Element element : elements) {
-//                        String href = element.attr("href");
-//                        String title = element.attr("title");
-//                        String size = element.text();
-//                        System.out.println("title = " + title);
-//                        System.out.println("href = " + href);
-//                        System.out.println("size = " + size);
-//                    }
-//                }
-//
-//            } catch (IOException e) {
-//                System.err.println(e.getLocalizedMessage());
-//            }
-//        }
-
     }
 
     enum UrlType {

@@ -82,7 +82,7 @@
       <workItem from="1685454446342" duration="13075000" />
       <workItem from="1685658897920" duration="1603000" />
       <workItem from="1685660595680" duration="1351000" />
-      <workItem from="1685771696412" duration="870000" />
+      <workItem from="1685771696412" duration="3028000" />
     </task>
     <task id="LOCAL-00001" summary="connect and set url type">
       <created>1685499775247</created>
@@ -105,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685660468205</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="get image link by page">
+      <created>1685797939373</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1685797939373</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
