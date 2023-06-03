@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff9b499c-3a00-4dd8-b218-38ac70a7e357" name="Changes" comment="">
+    <list default="true" id="ff9b499c-3a00-4dd8-b218-38ac70a7e357" name="Changes" comment="get image link by page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -43,7 +43,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/learn/CrawlPD",
+    "last_opened_file_path": "D:/learn/example",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -80,7 +80,9 @@
       <workItem from="1685263039631" duration="2238000" />
       <workItem from="1685396015436" duration="741000" />
       <workItem from="1685454446342" duration="13075000" />
-      <workItem from="1685658897920" duration="1335000" />
+      <workItem from="1685658897920" duration="1603000" />
+      <workItem from="1685660595680" duration="1351000" />
+      <workItem from="1685771696412" duration="870000" />
     </task>
     <task id="LOCAL-00001" summary="connect and set url type">
       <created>1685499775247</created>
@@ -89,7 +91,21 @@
       <option name="project" value="LOCAL" />
       <updated>1685499775247</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="get image link by page">
+      <created>1685660308514</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685660308514</updated>
+    </task>
+    <task id="LOCAL-00003" summary="get image link by page">
+      <created>1685660468205</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1685660468205</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,6 +113,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="connect and set url type" />
-    <option name="LAST_COMMIT_MESSAGE" value="connect and set url type" />
+    <MESSAGE value="get image link by page" />
+    <option name="LAST_COMMIT_MESSAGE" value="get image link by page" />
   </component>
 </project>
