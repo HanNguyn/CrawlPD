@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff9b499c-3a00-4dd8-b218-38ac70a7e357" name="Changes" comment="get image link by page">
+    <list default="true" id="ff9b499c-3a00-4dd8-b218-38ac70a7e357" name="Changes" comment="get imageURL and tags">
+      <change afterPath="$PROJECT_DIR$/src/Crawl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/UrlType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -17,6 +19,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -82,7 +85,7 @@
       <workItem from="1685454446342" duration="13075000" />
       <workItem from="1685658897920" duration="1603000" />
       <workItem from="1685660595680" duration="1351000" />
-      <workItem from="1685771696412" duration="3028000" />
+      <workItem from="1685771696412" duration="4344000" />
     </task>
     <task id="LOCAL-00001" summary="connect and set url type">
       <created>1685499775247</created>
@@ -112,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685797939373</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="get imageURL and tags">
+      <created>1685799780558</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1685799780558</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,6 +131,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="connect and set url type" />
     <MESSAGE value="get image link by page" />
-    <option name="LAST_COMMIT_MESSAGE" value="get image link by page" />
+    <MESSAGE value="get imageURL and tags" />
+    <option name="LAST_COMMIT_MESSAGE" value="get imageURL and tags" />
   </component>
 </project>
